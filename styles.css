@@ -1,0 +1,125 @@
+* {
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+body {
+  box-sizing: border-box;
+  background:none;
+  margin: 20px;
+}
+.header {
+  height: 125px;
+  background: lightgray;
+}
+.footer {
+  height: 125px;
+  background: lightgray;
+}
+
+@media (min-width: 500px) {
+  /*desktop*/
+
+
+
+.container_search-results {
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1%;
+  border: solid 1px black;
+  padding: 1%;
+  background: none;
+}
+.filter {
+  height: 100px;
+  width: 100%;
+  background: red;
+  order: var(--filter-order);
+}
+.accom-header {
+  margin: 0;
+  border: solid 1px white;
+  width: 100%;
+  height: min-content;
+}
+.accommodations {
+  margin: 0;
+  padding: 2%;
+  height: 300px;
+  width: 60%;
+  background: lightgrey;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 2%;
+}
+.show_more {
+  margin: 0;
+  border: solid 1px white;
+  width: 100%;
+  height: min-content;
+}
+.mp-header {
+  margin: 0;
+  border: solid 1px white;
+  width: 100%;
+  height: min-content;
+}
+.most-popular {
+  margin: 0;
+  margin-left: auto;
+  padding: 2%;
+  height: 300px;
+  width: 30%;
+  background: aqua;
+  order: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+   
+}
+
+.activities {
+  margin: 0;
+  padding: 2%;
+  height: auto;
+  width: 100%;
+
+  background: blue;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3% 3%;
+}
+/*cards start*/
+.acm-card {
+  background: white;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+  height: 105px;
+  flex: 0 1 140px;
+   
+}
+
+.mp-card {
+  background: white;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5%;
+  height: 70px; 
+  flex: 0 1 250px; 
+    
+}
+
+.act-card {
+  background: white;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+  height: 100px;
+  flex: 0 1 210px;
+}
+/*cards end*/
+}
